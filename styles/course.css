@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/comingSoon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+}
+
+.text{
+    position: absolute;
+    top: 120px;
+}
+
+.text p{
+    font-weight: bold;
+}
+
+.text h1{
+    color: brown;
+}
