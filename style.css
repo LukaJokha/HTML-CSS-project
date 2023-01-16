@@ -12,7 +12,7 @@ section {
 
 header a{
   font-family: var(--Single-font);
-  font-size: 0.9em;
+  font-size: 14.5;
   color: whitesmoke;
 }
 
@@ -49,15 +49,15 @@ header{
 }
 
 header .nav-item:last-child {
-  padding-right: 10.5em;
+  padding-right: 168px;
 }
 
 header .nav-item {
-  padding: 0.9em;
+  padding: 14.5;
 }
 
 header .navbar-brand {
-  padding-left: 8rem;
+  padding-left: 128px;
 }
 
 header .nav-link:hover {
@@ -79,7 +79,6 @@ header .row .col-md-5 img {
 
 header {
   background: #ff512f;
-  /* fallback for old browsers */
   background: var(--bggradient);
 }
 
@@ -111,7 +110,7 @@ header .container .col-md-7 p {
   height: 500px;
 }
 
-/********** section 1 **************/
+/** section 1 **/
 
 .section-1 {
   padding: 20vmin 0vmin;
@@ -142,16 +141,16 @@ header .container .col-md-7 p {
 
 .section-1 .row .col-md-6 .panel h1 {
   font-weight: bold;
-  padding: 0.4em 0;
-  font-size: 2em;
+  padding: 6.5 0;
+  font-size: 32px;
 }
 
 .section-1 .row .col-md-6 .panel p {
-  font-size: 0.9em;
+  font-size: 14.4px;
   color: rgba(0, 0, 0, 0.5);
 }
 
-/*  Section 2  */
+/**  Section 2  **/
 
 .cover {
   width: 100%;
@@ -285,7 +284,7 @@ header .container .col-md-7 p {
   padding: 1em 0.5em;
 }
 
-/* Section 3 */
+/** Section 3 **/
 
 .section-3 {
   height: 70vmin;
@@ -322,11 +321,16 @@ header .container .col-md-7 p {
   font-size: 2vmin;
 }
 
-/* Section Team */
+/** Section Team **/
 
 .section-4 .container h1 {
   font-size: 6vmin;
   padding-top: 14vmin;
+  color: white;
+}
+
+.section-4 p {
+  color: white;
 }
 
 .section-4 .team {
@@ -382,9 +386,9 @@ footer .column i {
   color: #dd2476;
 }
 
-/* It is Adjacent sibling combinator */
+/** It is Adjacent sibling combinator **/
 
-footer .column i + i {
+/* footer .column i + i {
   padding: 0 0.5em;
 }
 
@@ -395,4 +399,4 @@ footer .column i + i {
   background: rgba(0, 0, 0, 0.815);
   z-index: 9;
   transition: all 0.5s ease ;
-}
+} */
