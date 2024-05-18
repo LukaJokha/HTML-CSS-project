@@ -1,1 +1,3 @@
-https://lukajokha.github.io/mrlukaproject.github.io/
+my made HTML/CSS project
+
+Live: https://lukajokha.github.io/HTML-CSS-project/
